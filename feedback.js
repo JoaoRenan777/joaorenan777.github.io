@@ -4,7 +4,7 @@ function Feedback(){
     if(Nome && Feed){
         localStorage.setItem(Nome, Feed)
         alert('Seu feedback foi salvo');
-        window.location.pathname = 'projetinho final do curso/inicio.html'
+        window.location.pathname = 'projetinho final do curso/index.html'
     }
     else if(Nome){
         alert('Por favor de seu feedback')
