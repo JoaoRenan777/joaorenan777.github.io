@@ -1,0 +1,98 @@
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.telacheia{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.quadradin{
+    position: absolute;
+    border: solid 1px black;
+    height: 10%;
+    width: 5%;
+    background-color: black;
+}
+.titulo{
+    padding-left: 6%;
+}
+.bolinhas{
+    position: absolute;
+    right: 31%;
+    top: 5%;
+    height: 50px;
+    width: 21%;
+    display: flex;
+}
+.bolinha{
+    position: relative;
+    border: solid 4px black;
+    background-color: black;
+    height: 33px;
+    width: 33px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+.dpsnomeio{
+    padding: 4%;
+}
+.fundocinza{
+    background-color: #cecece;
+    width: 41%;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+.tfeedback{
+    margin-top: 10%;
+    padding-left: 12%;
+}
+.botoes{
+    width: 99%;
+}
+.actfunc{
+    padding-left: 40%;
+}
+.vermelin{
+    position: absolute;
+    border: solid 1px red;
+    margin-left: 47%;
+    margin-top: 34%;
+    height: 8%;
+    width: 10%;
+    background-color: red;
+}
+.enviar{
+    background-color: red;
+    border: red;
+    color: black;
+}
+.enviar:hover{
+    background-color: rgb(167, 0, 0);
+    border: rgb(167, 0, 0);
+}
+.imagemsenai{
+    position: absolute;
+    margin-left: 70%;
+    top: 0;
+    height: 100vh;
+}
+.img{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    z-index: 100;
+    width: 15%;
+    height: 60%;
+}
+.sansation{
+    font-family: 'Work Sans', sans-serif;
+}
+.arial{
+    font-family: 'Roboto', sans-serif;
+}
+.montsserat{
+    font-family: 'Montserrat', sans-serif;
+}
